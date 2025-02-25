@@ -7,10 +7,10 @@ export default function PDFButton() {
     const doc = new jsPDF();
 
     // Agregar texto al PDF en la posición (x=20, y=20)
-    doc.text("¡Hola! Este es un PDF generado en React.", 20, 20);
+    doc.text("Este es un PDF generado en React.", 20, 20);
 
     // Guardar y descargar el archivo con el nombre "documento.pdf"
-    doc.save("documento.pdf");
+    doc.save("docReact.pdf");
   };
 
   return (

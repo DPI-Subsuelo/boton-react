@@ -15,10 +15,10 @@ export default function PDFButton() {
     const img = new Image();
     img.src = logoSanJuan;
     img.onload = () => {
-      doc.addImage(img, "PNG", 10, 10, 25, 15); // Ajusta las coordenadas y el tamaño según sea necesario
+      doc.addImage(img, "PNG", 10, 10, 40, 15); // Ajusta las coordenadas y el tamaño según sea necesario
       doc.setFont("helvetica", "bold");
       doc.setFontSize(14);
-      doc.text("Dirección General de Cooperativas", 40, 20);
+      doc.text("Dirección General de Cooperativas", 60, 20);
 
       // Configurar el título en negrita y con una letra más grande
       doc.setFont("helvetica", "bold");

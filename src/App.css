@@ -1,16 +1,18 @@
 .pdf-button {
-  padding: 12px 20px;
-  font-size: 18px;
-  background-color: #ffffff;
-  color: #413E43;
-  border: 1px solid #EEEBEB; /* Borde verde oscuro */;
+  padding: 8px 14px;
+  font-size: 14px;
+  background-color: #EC6608;
+  color: #ffffff;
+  border: 1px solid #EEEBEB; /* Borde gris claro */;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.pdf-button:hover {
-  background-color: #EC6608;
-  color: #ffffff
-
+.pdf-button:disabled {
+  background-color: #F5A46D; /* Naranja más claro */
+  color: #ffffff;
+  border-color: #E0E0E0; /* Opcional: borde más tenue */
+  cursor: not-allowed;
+  opacity: 0.7; /* Opcional: efecto visual de deshabilitado */
 }
